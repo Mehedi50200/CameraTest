@@ -5,11 +5,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true" [ngClass]="{'custom-ion-content': isToBack}">
+<ion-content [fullscreen]="true" style="background: transparent !important">
   <ion-grid>
     <ion-row>
       <ion-col>
-        <button ion-button color="primary" (click)="startCameraAbove()">
+        <button ion-button class="button" (click)="startCameraAbove()">
           Start Front
         </button>
       </ion-col>
